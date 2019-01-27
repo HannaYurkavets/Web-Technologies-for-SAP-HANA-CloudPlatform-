@@ -1,0 +1,39 @@
+.main_div{
+    display:flex; 
+    width:100%; 
+    margin-bottom: 1%
+}
+.main_div.main_div1{
+    height:8vh;
+}
+.main_div.main_div2{
+    height:37vh;
+}
+.main_div.main_div3{
+    height:27vh;
+}
+.main_div.main_div4{
+    height:18vh;
+}
+
+.child_div{
+    background-color:rgb(236, 177, 13);
+    width:50%;
+}
+.child_div.div1, .child_div3.div12, .child_div4.div123 {
+   margin-right: 0.3%;
+}
+
+.child_div2{
+    background-color:rgb(216, 243, 60);
+    width:100%;
+}
+
+.child_div3{
+    background-color:rgb(111, 117, 190);
+    width:33.3%;
+}
+.child_div4{
+    background-color:rgb(210, 209, 211);
+    width:25%;
+}

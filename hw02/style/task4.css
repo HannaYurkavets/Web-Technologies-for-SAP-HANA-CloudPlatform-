@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+}
+
+.block{
+    width: 100%;
+    background-color: rgba(93, 83, 138, 0.5);
+}
+.block.header{
+    height: 10%;
+    position: fixed;
+}
+.block:hover{
+    background-color: rgba(93, 83, 138, 1);
+}
+.header img{
+    height: 80%;
+    padding: 0.5% 1% 0.5% 1%;
+}
+
+.main{
+    position: absolute;
+    display: flex;
+    margin-top: 15vh;
+    margin-bottom: 50px;
+    margin-right: 15%;
+    margin-left: 15%;
+    border-left: solid rgb(93, 83, 138) ;
+    border-right: solid rgb(93, 83, 138);
+    background-color: rgb(245, 223, 245);
+}
+.main div p{
+    padding: 2% 10% 2% 10%;
+}
+
+.block.footer{
+    margin-top: 80vh;
+    position: absolute;
+    height: 15%;
+    font-size: 12px;
+}
+
+.footer p{
+    padding: 0 0 0 2%;
+}

@@ -1,0 +1,106 @@
+.main_div{
+    display:flex; 
+    width:100%; 
+    margin-bottom: 1%
+}
+.main_div.main_div1{
+    height:13vh;
+}
+.main_div.main_div2{
+    height:62vh;
+}
+.main_div.main_div3{
+    height:17vh;
+}
+
+.div1{
+    background-color:rgb(236, 76, 13);
+    width:40%;
+}
+.div2{
+    width: 60%;
+    background-color: rgb(235, 185, 22);
+}
+
+.div3{
+    background-color:rgb(17, 102, 28);
+    width:100%;
+}
+
+.div4{
+    background-color:rgb(124, 70, 19);
+}
+.div5{
+    background-color:rgb(67, 29, 204);
+}
+.div6{
+    background-color:rgb(190, 18, 196);
+}
+.div1, .div4, .div5 {
+    margin-right: 1%;
+ }
+ .div4, .div5, .div6{
+    width:33.3%;
+ }
+
+ 
+@media (max-width: 420px){
+    .div1
+    {
+        background-color: rgb(17, 102, 28);
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .div2,.div5, .div6
+    {
+        display: none;
+    }
+    .main_div.main_div2
+    {
+        height: 13vh; 
+    }
+    .div3
+    {
+        background-color: rgb(190, 18, 196);
+    }
+    .main_div.main_div3
+    {
+        height: 67vh;
+    }
+    .div4
+    {
+        background-color: rgb(236, 76, 13);
+        width: 100%;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 1024px){
+    .div1
+    {
+        background-color: rgb(235, 185, 22);
+        margin-bottom: 2%;
+    }
+    .div2
+    {
+        background-color: rgb(190, 18, 196);
+        margin-bottom: 2%;
+    }
+    .div3
+    {
+        background-color: rgb(236, 76, 13);
+    }
+    .div4
+    {
+        background-color: rgb(17, 102, 28);
+        width: 50%;
+    }
+    .div5
+    {
+        background-color: rgb(67, 29, 204);
+        width: 50%;
+    }
+    .div6
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+.main {
+    display: grid;
+    margin: 2% 4%  0% 4%;
+    background-color: #f8f9fa;
+}
+
+.header {
+    text-align: left;
+}

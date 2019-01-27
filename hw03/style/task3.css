@@ -1,0 +1,87 @@
+.main {
+    width: 99vw;
+    height: 98vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
+}
+
+.main>div {
+    display: grid;
+    font-size: 56px;
+    
+    border-radius: 2vh;
+}
+
+/* вертикально по центру*/
+.main div div{
+    justify-self: center;
+    align-self: center;
+}
+
+.div1, .div3, .div5, .div7, .div9, .div11{
+    background: rgb(78, 78, 78);
+    color: white;
+}
+
+.div2, .div4, .div6, .div8, .div10, .div12{
+    background: rgb(232, 232, 236);
+}
+
+.div1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+.div3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.div4 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.div5 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.div6 {
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+.div7 {
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+.div8 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.div9 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.div2 {
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+
+.div10 {
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+.div11 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.div12 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+

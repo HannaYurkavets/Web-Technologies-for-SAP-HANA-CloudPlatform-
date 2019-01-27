@@ -1,0 +1,13 @@
+
+.main_div {
+    display: flex;
+    height: 98vh;
+    flex-wrap: wrap;
+}
+
+.child {
+    width: 45vw;
+    background-color: rgb(247, 224, 244);
+    margin: 1%;
+    border: 1px solid rgb(238, 161, 174);
+}

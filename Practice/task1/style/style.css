@@ -1,0 +1,128 @@
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 98.7%;
+    background-color: white;
+    padding: 10px;
+    color: rgb(130, 127, 131);
+    border-bottom: 1px solid rgb(152, 149, 153);
+}
+
+.header-half {
+    display: inherit;
+    align-items: center;
+    width: 50%;
+    min-width: 360px;
+}
+
+.header-half form {
+    justify-content: flex-end;
+    width: 100%;
+    display: inherit;
+}
+
+.input {
+    width: 50%;
+    min-width: 200px;
+}
+
+.header-text {
+    border-left: 1px solid rgb(152, 149, 153);
+    width: 30%;
+    min-width: 140px;
+    padding-left: 2%;
+}
+
+.button {
+    border: none;
+    background: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 1.2em;
+}
+.button:hover {
+    color: rgb(71, 99, 129);
+    cursor: pointer;
+}
+
+.menu {
+    width: 30%;
+    text-align: center;
+}
+
+.dropdown {
+    display: none;
+    text-align: left;
+    margin-left: -5%;
+    margin-top: 23px;
+    border: 1px solid rgb(152, 149, 153);
+    background-color:white;
+}
+.dropdown p{
+    padding-left: 2%;
+}
+.menu:hover .dropdown {
+    display: block;
+    position: absolute;
+    width: 30%;
+}
+
+.main {
+    width: 90%;
+    margin: 10% 5% 5% 5%;
+    justify-content: space-between;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1%;
+    background-image: url(../image/1.jpeg);
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+
+.card_item {
+    background-color: RGBA(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.main div header {
+    width: 90%;
+    height: 30%;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+.main div main {
+    background-color: rgb(220, 224, 228);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 10%;
+    height: 35%;
+}
+
+.main div button {
+    background-color: rgb(42, 59, 77);
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    height: 12%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    justify-content: center;
+}
+
+.main div button:hover {
+    cursor: pointer;
+    background-color: rgb(71, 99, 129);
+}

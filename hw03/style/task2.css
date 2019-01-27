@@ -1,0 +1,130 @@
+.main {
+    width: 99vw;
+    height: 98vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr) repeat(2, 3fr);
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
+}
+
+.main>div {
+    display: grid;
+    color: white;
+    font-size: 56px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(214, 26, 26);
+}
+
+/* вертикально по центру*/
+.main div div{
+    justify-self: center;
+    align-self: center;
+}
+
+.div1 {
+    background: #a5ee2f;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.div2 {
+    background: #24ebc9;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.div3 {
+    background: #f1c13b;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.div4 {
+    background: #f8e433;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.div5 {
+    background: #11ce3a;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.div6 {
+    background: #d116a2;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.div7 {
+    background: #34d64a;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.div8 {
+    background: #2bc1db;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.div9 {
+    background: #f32f2f;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.div10 {
+    background: #ee8019;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.div11 {
+    background: #6d502f;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.div12 {
+    background: #f3972f;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.div13 {
+    background: #05ce27;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.div14 {
+    background: #6f767c;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.div15 {
+    background: #2f8af3;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.div16 {
+    background: #f3e62f;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.div17 {
+    background: #f3b52f;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.div18 {
+    background: #d425bd;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.div19 {
+    background: #9c9ca5;
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+.div20 {
+    background: #d828c1;
+    grid-column: 4/5;
+    grid-row: 5/6;
+}

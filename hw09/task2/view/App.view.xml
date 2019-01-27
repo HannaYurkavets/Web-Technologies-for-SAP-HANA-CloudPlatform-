@@ -1,0 +1,30 @@
+<mvc:View 
+    controllerName="sap.ui.demo.walkthrough.controller.App" 
+    xmlns="sap.m" 
+    xmlns:l="sap.ui.layout" 
+    xmlns:mvc="sap.ui.core.mvc"
+    >
+    <Panel headerText="{i18n>headerText}" class="sapUiResponsiveMargin" width="auto">
+        <content>
+            <List
+                id="peopleList"
+				headerText="{i18n>listHeader}"
+				items="{
+					path: 'People>/value',
+					factory: '.listFactory'
+				}">
+                   
+					<ObjectListItem
+						id="item"
+                        type = "Active"
+                        title = "FirstName: {People>FirstName}___________
+                                 SecondName: {People>LastName}___________
+                                 UserName: {People>UserName}___________
+                                 Gender: {People>Gender}"
+                        
+						>
+					</ObjectListItem>
+                    </List>
+        </content>
+    </Panel>
+</mvc:View>

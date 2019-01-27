@@ -1,0 +1,57 @@
+.main {
+    width: 99vw;
+    height: 98vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+}
+
+.main>div {
+    display: grid;
+    color: white;
+    font-size: 56px;
+}
+
+/* вертикально по центру*/
+.main div div{
+    justify-self: center;
+    align-self: center;
+}
+
+.div1 {
+    background: #25db3d;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.div2 {
+    background: #fdd552;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.div3 {
+    background: #5ef7ef;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.div4 {
+    background: #ce8cec;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.div5 {
+    background: #23f097;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.div6 {
+    background: #f3972f;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}

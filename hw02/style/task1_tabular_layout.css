@@ -1,0 +1,36 @@
+.table{
+    border:10%;
+    border-color:white;
+    width:100%;
+}
+.table.first_table{
+    height:10%;
+}
+
+#first_row{
+   background: rgb(236, 177, 13);
+}
+
+.table.second_table{
+   height:40%;
+}
+
+#second_row{
+    background:rgb(216, 243, 60);
+}
+
+.table.third_table{
+   height:30%;
+}
+
+#third_row{
+    background: rgb(111, 117, 190);
+}
+
+.table.fourth_table{
+    height:20%;
+}
+
+#fourth_row{
+    background: rgb(210, 209, 211);
+}
