@@ -1,0 +1,139 @@
+
+
+body {
+    height: 97%;
+    width: 99%;
+    overflow: hidden;
+    background: rgb(243, 246, 247);
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.main-scroll {
+    width: 20%;
+    min-width: 150px;
+    overflow-y: scroll;
+    visibility: hidden;
+}
+
+.scroll-list {
+    width: 90%;
+    height: 100%;
+}
+
+.scroll-list,
+.main-scroll:hover {
+    visibility: visible;
+}
+
+.item {
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.item:hover{
+    cursor: pointer;
+    background: rgb(236, 234, 234);
+}
+.item .item:hover {
+    cursor: pointer;
+}
+
+
+.item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.chat {
+    padding: 10px;
+}
+
+.name {
+    margin-top: 20%;
+    padding-left: 10%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:rgb(103, 66, 146);
+}
+
+.answer {
+    display: flex;
+}
+
+.answer-avatar {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.answer-text {
+  
+    background: white;
+    border: 2px solid rgb(207, 205, 209);
+    border-radius:60px 0px 60px 60px;
+    padding: 10px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.message-scroll {
+    width: 80%;
+    padding: 10px;
+    margin-left: 10px;
+    height: 100%;
+    overflow: auto;
+    visibility: hidden;
+}
+
+.message-scroll:hover {
+    visibility: visible;
+}
+
+.message-scroll-item {
+    visibility: visible;
+}
+
+.message-scroll-item img {
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.message {
+    
+    display: flex;
+}
+
+.message-text {
+    
+    background: white;
+    border: 2px solid rgb(207, 205, 209);
+    border-radius:0px 60px 60px 60px;
+    padding: 10px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid rgb(103, 66, 146);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(103, 66, 146);
+    border-radius: 10px;
+}
+
